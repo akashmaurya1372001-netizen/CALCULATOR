@@ -1,15 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-
+import styles from "./App.module.css"
 function App() {
-  return;
-  <div id="display" type="text">
-    <input id="display" type="text" />
+  return(
+  <div className={styles.calculator}>
+    <input className={styles.display} id="display" type="text" />
     <div id="buttons-container">
       <button>C</button>
     </div>
-  </div>;
-}
+  </div>
+);}
 export default App;
