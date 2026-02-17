@@ -1,8 +1,9 @@
 import styles from "./App.module.css";
+import Display from "./component/Display";
 function App() {
   return (
     <div className={styles.calculator}>
-      <input className={styles.display} id="display" type="text" />
+     <Display></Display>
       <div className="button-Container" id="buttons-container">
         <button>C</button>
       </div>

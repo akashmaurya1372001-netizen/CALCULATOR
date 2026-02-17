@@ -3,11 +3,7 @@
   width: 200px;
   border-radius: 5px;
 }
-.display {
-  margin: 10px;
-  width: 175px;
-  font-size: 25px;
-}
+
 .buttonContainer {
   display: flex;
   justify-content: center;
