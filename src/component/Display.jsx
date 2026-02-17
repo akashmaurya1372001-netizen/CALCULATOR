@@ -1,5 +1,6 @@
 import styles from "./Display.module.css";
 const Display=() =>{
- <input className={styles.display} id="display" type="text" />
-}
+    return(
+ <input className={styles.display}  />
+)}
 export default Display;
