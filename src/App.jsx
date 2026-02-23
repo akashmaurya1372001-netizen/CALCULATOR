@@ -4,7 +4,7 @@ import Button from "./component/Button";
 function App() {
   return (
     <div className={styles.calculator}>
-      <Display></Display>
+      <Display ></Display>
       <Button></Button>
     </div>
   );
